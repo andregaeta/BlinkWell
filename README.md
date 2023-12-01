@@ -9,7 +9,7 @@ Feedback is being collected and any input is greatly appreciated. [Google Forms 
 
 ## How to use
 
-Just download the [latest release](https://github.com/andregaeta/BlinkWell/releases/tag/v1.0) and run the executable. BlinkWell will start on the system tray. You can double click it to open the main window.
+Just download the [latest release](https://github.com/andregaeta/BlinkWell/releases/tag/v1.0) and run the executable. BlinkWell will start on the system tray. You can double click it to open the main window. In the setting tab, you can enable the features you want.
 
 **BlinkWell requires a webcam to be connected.** 
 
