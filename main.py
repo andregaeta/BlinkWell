@@ -529,6 +529,9 @@ class BlinkWellApp(QApplication):
         self.try_set_default_setting("session_duration", 20, override)
         self.try_set_default_setting("snooze_duration", 2, override)
         self.try_set_default_setting("break_duration", 20, override)
+        self.try_set_default_setting("blink_reminder_toggle", True, override)
+        self.try_set_default_setting("break_reminder_toggle", True, override)
+        self.try_set_default_setting("stats_overlay_toggle", True, override)
 
     def try_set_default_setting(self, name, value, override):
         if override or not self.settings.contains(name):

@@ -72,10 +72,10 @@
        <widget class="QLabel" name="label_2">
         <property name="font">
          <font>
-          <family>BIZ UDPゴシック</family>
-          <pointsize>22</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Ebrima</family>
+          <pointsize>26</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">

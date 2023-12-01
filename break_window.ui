@@ -12,6 +12,7 @@
   </property>
   <property name="font">
    <font>
+    <family>Ebrima</family>
     <pointsize>7</pointsize>
    </font>
   </property>
@@ -39,6 +40,12 @@
    </property>
    <item row="0" column="0">
     <widget class="QFrame" name="frame">
+     <property name="font">
+      <font>
+       <family>Ebrima</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
      <property name="styleSheet">
       <string notr="true">margin: 0px;
 border: 0px;
@@ -83,8 +90,8 @@ color: rgb(245, 245, 245);</string>
         </property>
         <property name="font">
          <font>
-          <family>BIZ UDPゴシック</family>
-          <pointsize>16</pointsize>
+          <family>Ebrima</family>
+          <pointsize>17</pointsize>
           <weight>50</weight>
           <bold>false</bold>
          </font>
@@ -104,6 +111,12 @@ color: rgba(59,209,135,255);</string>
       </item>
       <item>
        <widget class="QFrame" name="frame_2">
+        <property name="font">
+         <font>
+          <family>Ebrima</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true"/>
         </property>
@@ -131,6 +144,12 @@ color: rgba(59,209,135,255);</string>
          </property>
          <item>
           <widget class="QFrame" name="frame_5">
+           <property name="font">
+            <font>
+             <family>Ebrima</family>
+             <pointsize>17</pointsize>
+            </font>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: rgba(56, 56, 64, 200); </string>
            </property>
@@ -164,8 +183,8 @@ color: rgba(59,209,135,255);</string>
            </property>
            <property name="font">
             <font>
-             <family>BIZ UDPゴシック</family>
-             <pointsize>16</pointsize>
+             <family>Ebrima</family>
+             <pointsize>17</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
@@ -192,6 +211,12 @@ color: rgba(59,209,135,255);</string>
              <height>0</height>
             </size>
            </property>
+           <property name="font">
+            <font>
+             <family>Ebrima</family>
+             <pointsize>17</pointsize>
+            </font>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: rgba(56, 56, 64, 200); </string>
            </property>
@@ -213,6 +238,12 @@ color: rgba(59,209,135,255);</string>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="font">
+               <font>
+                <family>Ebrima</family>
+                <pointsize>17</pointsize>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color:transparent;</string>
               </property>
@@ -233,8 +264,8 @@ color: rgba(59,209,135,255);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>BIZ UDPゴシック</family>
-                   <pointsize>40</pointsize>
+                   <family>Ebrima</family>
+                   <pointsize>41</pointsize>
                   </font>
                  </property>
                  <property name="styleSheet">
@@ -267,8 +298,8 @@ color: rgba(59,209,135,255);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>BIZ UDPゴシック</family>
-                   <pointsize>14</pointsize>
+                   <family>Ebrima</family>
+                   <pointsize>17</pointsize>
                   </font>
                  </property>
                  <property name="styleSheet">
@@ -287,6 +318,12 @@ color: rgba(59,209,135,255);</string>
             </item>
             <item>
              <widget class="QFrame" name="frame_7">
+              <property name="font">
+               <font>
+                <family>Ebrima</family>
+                <pointsize>17</pointsize>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color:transparent;</string>
               </property>
@@ -307,8 +344,8 @@ color: rgba(59,209,135,255);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>BIZ UDPゴシック</family>
-                   <pointsize>40</pointsize>
+                   <family>Ebrima</family>
+                   <pointsize>41</pointsize>
                   </font>
                  </property>
                  <property name="styleSheet">
@@ -341,8 +378,8 @@ color: rgba(59,209,135,255);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>BIZ UDPゴシック</family>
-                   <pointsize>14</pointsize>
+                   <family>Ebrima</family>
+                   <pointsize>17</pointsize>
                   </font>
                  </property>
                  <property name="styleSheet">
@@ -361,6 +398,12 @@ color: rgba(59,209,135,255);</string>
             </item>
             <item>
              <widget class="QFrame" name="frame_8">
+              <property name="font">
+               <font>
+                <family>Ebrima</family>
+                <pointsize>17</pointsize>
+               </font>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color:transparent;</string>
               </property>
@@ -381,8 +424,8 @@ color: rgba(59,209,135,255);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>BIZ UDPゴシック</family>
-                   <pointsize>40</pointsize>
+                   <family>Ebrima</family>
+                   <pointsize>41</pointsize>
                   </font>
                  </property>
                  <property name="styleSheet">
@@ -415,8 +458,8 @@ color: rgba(59,209,135,255);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>BIZ UDPゴシック</family>
-                   <pointsize>14</pointsize>
+                   <family>Ebrima</family>
+                   <pointsize>17</pointsize>
                   </font>
                  </property>
                  <property name="styleSheet">
@@ -438,6 +481,12 @@ color: rgba(59,209,135,255);</string>
          </item>
          <item>
           <widget class="QFrame" name="frame_3">
+           <property name="font">
+            <font>
+             <family>Ebrima</family>
+             <pointsize>17</pointsize>
+            </font>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: rgba(56, 56, 64, 200); </string>
            </property>
@@ -468,6 +517,12 @@ color: rgba(59,209,135,255);</string>
              <width>16777215</width>
              <height>6</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Ebrima</family>
+             <pointsize>17</pointsize>
+            </font>
            </property>
            <property name="styleSheet">
             <string notr="true">QProgressBar {
@@ -510,6 +565,12 @@ QProgressBar::chunk {
           <width>16777215</width>
           <height>50</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Ebrima</family>
+          <pointsize>17</pointsize>
+         </font>
         </property>
         <property name="frameShape">
          <enum>QFrame::StyledPanel</enum>
@@ -561,8 +622,8 @@ QProgressBar::chunk {
            </property>
            <property name="font">
             <font>
-             <family>BIZ UDPゴシック</family>
-             <pointsize>14</pointsize>
+             <family>Ebrima</family>
+             <pointsize>17</pointsize>
             </font>
            </property>
            <property name="styleSheet">

@@ -222,8 +222,8 @@ color: rgb(59, 209, 135);
               </property>
               <property name="font">
                <font>
-                <family>BIZ UDPゴシック</family>
-                <pointsize>12</pointsize>
+                <family>Ebrima</family>
+                <pointsize>15</pointsize>
                 <weight>50</weight>
                 <bold>false</bold>
                </font>
@@ -277,8 +277,8 @@ color: rgb(59, 209, 135);
               </property>
               <property name="font">
                <font>
-                <family>BIZ UDPゴシック</family>
-                <pointsize>12</pointsize>
+                <family>Ebrima</family>
+                <pointsize>15</pointsize>
                 <weight>50</weight>
                 <bold>false</bold>
                 <stylestrategy>PreferAntialias</stylestrategy>
@@ -321,8 +321,8 @@ color: rgb(59, 209, 135);
               </property>
               <property name="font">
                <font>
-                <family>BIZ UDPゴシック</family>
-                <pointsize>12</pointsize>
+                <family>Ebrima</family>
+                <pointsize>15</pointsize>
                 <weight>50</weight>
                 <bold>false</bold>
                </font>

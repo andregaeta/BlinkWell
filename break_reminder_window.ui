@@ -25,6 +25,12 @@
      <height>191</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Ebrima</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true"/>
    </property>
@@ -57,8 +63,8 @@
     </property>
     <property name="font">
      <font>
-      <family>BIZ UDPゴシック</family>
-      <pointsize>16</pointsize>
+      <family>Ebrima</family>
+      <pointsize>17</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -86,8 +92,8 @@ color: rgba(59,209,135,255);</string>
     </property>
     <property name="font">
      <font>
-      <family>BIZ UDPゴシック</family>
-      <pointsize>26</pointsize>
+      <family>Ebrima</family>
+      <pointsize>31</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -111,6 +117,12 @@ background-color: rgba(56, 56, 64, 200);</string>
       <width>401</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ebrima</family>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
@@ -139,6 +151,12 @@ background-color: rgba(68, 68, 78, 200);
        <height>51</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Ebrima</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <property name="spacing">
        <number>0</number>
@@ -156,8 +174,8 @@ background-color: rgba(68, 68, 78, 200);
         </property>
         <property name="font">
          <font>
-          <family>BIZ UDPゴシック</family>
-          <pointsize>13</pointsize>
+          <family>Ebrima</family>
+          <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
          </font>
@@ -180,8 +198,8 @@ background-color: rgba(68, 68, 78, 200);
         </property>
         <property name="font">
          <font>
-          <family>BIZ UDPゴシック</family>
-          <pointsize>13</pointsize>
+          <family>Ebrima</family>
+          <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
          </font>
@@ -204,8 +222,8 @@ background-color: rgba(68, 68, 78, 200);
         </property>
         <property name="font">
          <font>
-          <family>BIZ UDPゴシック</family>
-          <pointsize>13</pointsize>
+          <family>Ebrima</family>
+          <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
          </font>
