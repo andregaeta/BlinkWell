@@ -22,7 +22,7 @@ Your blink patterns are constantly analyzed and whenever necessary the app remin
 
 The program reminds you to take breaks regularly.
 
-![image](https://github.com/andregaeta/BlinkWell/assets/58143276/72593253-2ffa-4a31-8743-ccddd4756017)
+![image](https://github.com/andregaeta/BlinkWell/assets/58143276/7feaaffd-810c-41ad-b8a5-a31b75b0ef81)
 
 
 ### Stats Overlay
