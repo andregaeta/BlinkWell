@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/sfx">
+    <file>long_1.wav</file>
+    <file>long_2.wav</file>
+    <file>long_3.wav</file>
+    <file>long_4.wav</file>
+    <file>long_5.wav</file>
+    <file>long_6.wav</file>
+    <file>short_1.wav</file>
+    <file>short_2.wav</file>
+  </qresource>
+</RCC>

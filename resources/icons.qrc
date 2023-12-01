@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>logo_icon2.png</file>
+    <file>logo_icon.png</file>
+    <file>logo.png</file>
+    <file>reset_icon.png</file>
+    <file>eye_closed_gray.png</file>
+    <file>eye_closed_green.png</file>
+    <file>eye_open_green.png</file>
+    <file>minimize_icon.png</file>
+    <file>close_icon.png</file>
+    <file>debug_icon.png</file>
+    <file>settings_icon.png</file>
+    <file>stats_icon.png</file>
+    <file>blink_icon_big_green.png</file>
+    <file>blink_icon.png</file>
+    <file>screen_icon.png</file>
+  </qresource>
+</RCC>
