@@ -7,6 +7,12 @@ The software is developed as a Computer Science undergraduate thesis in UFRJ (Un
 Feedback is being collected and any input is greatly appreciated. [Google Forms link.](https://forms.gle/LfMF4KMoSud2wL46A)
 ![image](https://github.com/andregaeta/BlinkWell/assets/58143276/7dfb9b3f-5605-4df2-b54c-efb95f13833a)
 
+## How to use
+
+Just download the latest release and run the executable. BlinkWell will start on the system tray. You can double click it to open the main window.
+
+**BlinkWell requires a webcam to be connected.** 
+
 ## Features
 
 BlinkWell comes with three main features.
