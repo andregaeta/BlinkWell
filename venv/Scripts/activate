@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="X:\Programming\BlinkWell\venv"
+VIRTUAL_ENV="D:\Backup\BlinkWell\BlinkWellApp\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

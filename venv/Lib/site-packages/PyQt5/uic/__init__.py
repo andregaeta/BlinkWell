@@ -111,13 +111,16 @@ def compileUiDir(dir, recurse=False, map=None, **compileUi_args):
             ui_path = os.path.join(ui_dir, ui_file)
             py_path = os.path.join(py_dir, py_file)
 
-            ui_file = open(ui_path, 'r')
-            py_file = open(py_path, 'w')
+            try:
+                # Python v3.
+                py_file = open(py_path, 'w', encoding='utf-8')
+            except TypeError:
+                # Python v2.
+                py_file = open(py_path, 'w')
 
             try:
-                compileUi(ui_file, py_file, **compileUi_args)
+                compileUi(ui_path, py_file, **compileUi_args)
             finally:
-                ui_file.close()
                 py_file.close()
 
     if recurse:

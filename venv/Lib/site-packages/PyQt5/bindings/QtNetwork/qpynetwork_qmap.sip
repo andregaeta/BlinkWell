@@ -1,7 +1,7 @@
 // This is the SIP interface definition for the QMap and QMultiMap based mapped
 // types specific to the QtNetwork module.
 //
-// Copyright (c) 2021 Riverbank Computing Limited <info@riverbankcomputing.com>
+// Copyright (c) 2023 Riverbank Computing Limited <info@riverbankcomputing.com>
 // 
 // This file is part of PyQt5.
 // 
@@ -31,9 +31,8 @@
 %End
 
 %ConvertFromTypeCode
-    // Get the enum objects that are the dictionary keys.
+    // Get the enum member objects that are the dictionary keys.
     static PyObject *email_entry = 0;
-    static PyObject *dns_entry = 0;
 
     if (!email_entry)
     {
@@ -44,6 +43,8 @@
             return 0;
     }
 
+    static PyObject *dns_entry = 0;
+
     if (!dns_entry)
     {
         dns_entry = PyObject_GetAttrString(
@@ -52,6 +53,19 @@
         if (!dns_entry)
             return 0;
     }
+
+#if QT_VERSION >= 0x050d00
+    static PyObject *ip_address_entry = 0;
+
+    if (!ip_address_entry)
+    {
+        ip_address_entry = PyObject_GetAttrString(
+                (PyObject *)sipTypeAsPyTypeObject(sipType_QSsl), "IpAddressEntry");
+
+        if (!ip_address_entry)
+            return 0;
+    }
+#endif
 
     // Create the dictionary.
     PyObject *d = PyDict_New();
@@ -76,7 +90,6 @@
 
         int rc = PyDict_SetItem(d, email_entry, vlobj);
 
-        Py_DECREF(email_entry);
         Py_DECREF(vlobj);
 
         if (rc < 0)
@@ -117,7 +130,6 @@
 
         int rc = PyDict_SetItem(d, dns_entry, vlobj);
 
-        Py_DECREF(dns_entry);
         Py_DECREF(vlobj);
 
         if (rc < 0)
@@ -142,6 +154,48 @@
             PyList_SetItem(vlobj, i, vobj);
         }
     }
+
+#if QT_VERSION >= 0x050d00
+    // Handle the Qssl::IpAddressEntry key.
+    vl = sipCpp->values(QSsl::IpAddressEntry);
+
+    if (!vl.isEmpty())
+    {
+        PyObject *vlobj = PyList_New(vl.count());
+
+        if (!vlobj)
+        {
+            Py_DECREF(d);
+            return 0;
+        }
+
+        int rc = PyDict_SetItem(d, ip_address_entry, vlobj);
+
+        Py_DECREF(vlobj);
+
+        if (rc < 0)
+        {
+            Py_DECREF(d);
+            return 0;
+        }
+
+        for (int i = 0; i < vl.count(); ++i)
+        {
+            QString *s = new QString(vl.at(i));
+            PyObject *vobj = sipConvertFromNewType(s, sipType_QString,
+                    sipTransferObj);
+
+            if (!vobj)
+            {
+                delete s;
+                Py_DECREF(d);
+                return 0;
+            }
+
+            PyList_SetItem(vlobj, i, vobj);
+        }
+    }
+#endif
 
     return d;
 %End

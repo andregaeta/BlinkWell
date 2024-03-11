@@ -46,7 +46,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='main',
+    name='BlinkWell',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -60,4 +60,15 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon="icon.ico"
+)
+
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='main',
 )
